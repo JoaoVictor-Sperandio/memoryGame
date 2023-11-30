@@ -96,3 +96,18 @@ h2{
 .boxMatch::after{
     transform: rotateY(180deg);
 }
+
+/* For Mobile */
+@media only screen and (max-width: 800px) {
+    .item{
+        width: 80px;
+        height: 80px;
+    }
+    .game{
+        width: 350px;
+        height: 350px;
+    }
+    body{
+        background-color: #1a002c;
+    }
+  }
